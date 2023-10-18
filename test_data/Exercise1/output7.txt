@@ -1,0 +1,17 @@
+*** Start of Program ***
+
+[Please enter a command] 
+[Fraction is reset as 0] 
+0
+
+[Please enter a command] 
+[Enter two numbers for a fraction to ADD] 
+0 + 3/5 = 3/5
+
+[Please enter a command] 
+[Enter two numbers for a fraction to SUBTRACT] 
+3/5 - 1/4 = 7/20
+
+[Please enter a command] 
+
+ ****** End of Program ******

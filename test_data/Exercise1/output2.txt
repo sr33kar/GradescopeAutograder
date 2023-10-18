@@ -1,0 +1,9 @@
+*** Start of Program ***
+
+[Please enter a command] 
+[Fraction is reset as 0] 
+0
+
+[Please enter a command] 
+
+ ****** End of Program ******

@@ -1,0 +1,17 @@
+*** Start of Program ***
+
+[Please enter a command] 
+[Fraction is reset as 0] 
+0
+
+[Please enter a command] 
+[Enter two numbers for a fraction to ADD] 
+0 + 3/7 = 3/7
+
+[Please enter a command] 
+[Enter two numbers for a fraction to DIVIDE] 
+3/7 / 2/5 = 15/14
+
+[Please enter a command] 
+
+ ****** End of Program ******

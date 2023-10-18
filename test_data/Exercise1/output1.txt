@@ -1,0 +1,19 @@
+*** Start of Program ***
+
+[Please enter a command] 
+[Invalid input] 
+
+[Please enter a command] 
+Command Options
+-----------------------------------
+c: reset the value
++: add a fraction to the current value
+-: subtract a fraction from the current value
+*: multiply a fraction to the current value
+/: divide the current value by a fraction
+?: display the menu again
+q: quit this program
+
+[Please enter a command] 
+
+ ****** End of Program ******

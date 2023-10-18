@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+# cp /autograder/submission/*.cpp /autograder/source/test_data/exercise_1/exercise_1.cpp
+
+# Source directory containing the files to be copied
+source_dir="/autograder/submission"
+
+# Check if the source directory exists
+if [ ! -d "$source_dir" ]; then
+  echo "Source directory not found: $source_dir"
+  exit 1
+fi
+
+# # Iterate through files named exercise_1.cpp, exercise_2.cpp, etc.
+# for filename in "${source_dir}"/Exercise*.cpp; do
+#   if [ -e "$filename" ]; then
+#     # Extract the file number from the filename
+#     file_num=$(basename "$filename" | sed 's/Exercise\(.*\)\.cpp/\1/')
+#     dest_dir="/autograder/source/test_data/Exercise${file_num}"
+
+#     # Create the destination directory if it doesn't exist
+#     mkdir -p "$dest_dir"
+
+#     # Copy the file to the destination directory
+#     cp "$filename" "$dest_dir/"
+#     echo "Copied ${filename} to ${dest_dir}"
+#   fi
+# done
+
+
+# Destination directory
+dest_dir="/autograder/source/test_data/Exercise1"
+
+# Copy all files from the source directory to the destination directory
+cp "$source_dir"/* "$dest_dir"
+
+# Optional: Print a message to indicate that the copy is complete
+echo "All files copied from $source_dir to $dest_dir"
+
+
+cd /autograder/source
+ls "$dest_dir"
+python3 run_tests.py
+
+exit 0

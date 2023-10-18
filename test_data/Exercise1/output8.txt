@@ -1,0 +1,21 @@
+*** Start of Program ***
+
+[Please enter a command] 
+[Fraction is reset as 0] 
+0
+
+[Please enter a command] 
+[Enter two numbers for a fraction to ADD] 
+0 + -5/3 = -5/3
+
+[Please enter a command] 
+[Fraction is reset as 0] 
+0
+
+[Please enter a command] 
+[Enter two numbers for a fraction to ADD] 
+0 + 5/3 = 5/3
+
+[Please enter a command] 
+
+ ****** End of Program ******
